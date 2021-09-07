@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+       <meta charset="utf-8">
+        <title>Art Gallory</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+       <h1>Art Gallory:</h1>
+       <h2>Work Available:</h2>
+       <ul id="art-list">
+       </ul>
+       <h3>Add New Art Work:</h3>
+       <form id="art-form">
+           <label for="art-name">Name:</label>
+           <input type="text" name="name" id="art-name"><br><br>
+           <label for="art-artist">Artist:</label>
+           <input type="text" name="artist" id="art-artist"><br><br>
+           <label for="art-year">Year:</label>
+           <input type="number" name="year" id="art-year" min="0"><br><br>
+           <label for="art-image">Image URL:</label>
+           <input type="text" name="image" id="art-image"><br><br>
+           <input type="submit" value="Create">
+       </form>
+    
+       <script src="index.js" type="text/javascript"></script>
+   </body>
+</html>
